@@ -36,14 +36,14 @@
 }
 
 @media (max-width: 767px) {
-    .section__buttons {
+    .buttons {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
     }
 }
 
-.section__button {
+.buttons__button {
     color: teal;
     background: none;
     border: none;
@@ -51,11 +51,11 @@
     padding: 20px;
 }
 
-.section__button:hover {
+.buttons__button:hover {
     color: hsl(180, 95%, 41%);
     cursor: pointer;
 }
 
-.section__button:disabled {
+.buttons__button:disabled {
     color: #ccc
 }
